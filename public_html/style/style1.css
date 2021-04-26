@@ -1,6 +1,16 @@
-.cards {
-    display: flex;
-    flex-wrap: wrap;
-    min-height: 100vh;
-    flex: 0 0 250px;
+main {
+    flex: 1;
+    height: calc(100vh - 40vh);
+}
+
+body {
+ 
+  display: flex;
+ 
+}
+
+aside {
+ 
+   width: 20vw
+ 
 }
