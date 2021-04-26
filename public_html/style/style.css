@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer{
+    height: 20vh;
+}
+
+main{
+    display: flex;
+    flex: 1;
+}
+
+nav, aside{
+    width: 20vw;
+}
+
+nav{
+    order: -1;
+}
+
+article{
+    flex: 1;
+}
